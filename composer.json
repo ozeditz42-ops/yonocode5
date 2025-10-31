@@ -1,0 +1,20 @@
+{
+    "name": "telegram-bot/render-deployment",
+    "description": "Telegram Bot for Render.com deployment",
+    "type": "project",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": ["index.php"]
+    },
+    "config": {
+        "platform-check": false
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "caption_text": "<b>Default Caption</b>",
+    "caption_image": "https://via.placeholder.com/400",
+    "caption_image_enabled": true,
+    "home_text": "<b>😎 Congratulations You have received your Promo Code! ❤️</b>\n\n<b>Your Refer Link ~</b> {link}\n\n<b>Per Refer ~ Get Upto ₹100 Big Promo Code ~Yono 777</b>",
+    "home_text_entities": null,
+    "home_photo": null,
+    "home_photo_enabled": false,
+    "referral_success_text": "<b>You've received a Promo Code for a successful referral! 😱❤️</b>",
+    "referral_success_entities": null,
+    "referral_success_photo": null,
+    "referral_success_photo_enabled": false,
+    "joined_button_text": "Get Promo Code",
+    "channels": [],
+    "admin_state": [],
+    "user_stats": [],
+    "referrals": []
+}

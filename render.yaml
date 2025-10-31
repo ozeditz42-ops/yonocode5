@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: docker
+    plan: free
+    docker:
+      dockerfile: Dockerfile
+    envVars:
+      - key: BOT_TOKEN
+        value: "8265350006:AAHMM70L4-w3bdtr6VnFIPK2NhO5uijfrpI"
+      - key: OWNER_ID
+        value: "8124361866"
+    healthCheckPath: /
+    autoDeploy: true
