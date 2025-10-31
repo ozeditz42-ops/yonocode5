@@ -5,18 +5,5 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [QSA,L]
 
-# Security headers
-Header always set X-Content-Type-Options nosniff
-Header always set X-Frame-Options DENY
-Header always set X-XSS-Protection "1; mode=block"
-
-# Prevent access to data files
-<Files "*.json">
-    Order allow,deny
-    Deny from all
-</Files>
-
-<Files "*.bak">
-    Order allow,deny
-    Deny from all
-</Files>
+# Remove the Header commands - they're causing the error
+# Security headers are not available in basic Apache
